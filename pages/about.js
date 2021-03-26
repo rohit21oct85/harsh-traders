@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function About() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,9 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Harsh Traders</a>
-          <br />
-          <Link href="/admin/login">Admin Login </Link>
+          About
         </h1>
       </main>
 

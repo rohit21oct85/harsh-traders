@@ -45,7 +45,7 @@ export default function Login() {
                         {loading ? 'Authenticating...':'Login'}
                     </Button>
                     </Form>
-                    <Link href="/">Home</Link>
+                    <Link className="mt-2" href="/">Home</Link>
             </div>
         </div>
       </main>

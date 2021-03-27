@@ -18,7 +18,7 @@ const handler = async (req, res) => {
         }
 
     }else{
-        res.status(422).send('req_method_not_supported');
+        res.status(422).json({message: 'req_method_not_supported'});
     }
 }
 

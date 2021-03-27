@@ -115,3 +115,16 @@
     color: #2f3348;
     font-weight:600;
 }
+.footer{
+    background-color: aliceblue;
+}
+.title{
+    font-size: 1.2rem; 
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+    margin: 0 auto;
+}

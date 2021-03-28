@@ -13,23 +13,14 @@ var AdminSchema = new Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     password: {
         type: String,
         required: true
-    },
-    role: {
-        type: String,
-        required: true
-    },
-    created_at: {
-        type: Date,
-        default: Date.now
-    },
-
-
-});
+    }
+},{ __v: { type: Number, select: false}});
 
 AdminSchema.pre('save', function(next) {
     const admin = this;

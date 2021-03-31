@@ -5,7 +5,7 @@ import {sign} from 'jsonwebtoken'
 import cookie from 'cookie'
 initDB()
 
-export default async (req, res) => {
+module.exports = async (req, res) => {
     if(req.method === 'POST'){
         const {email, password} = req.body;
         const filter = {email: email}

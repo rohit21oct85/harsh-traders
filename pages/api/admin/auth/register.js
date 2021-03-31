@@ -3,7 +3,7 @@ import Admin from '../../../../models/admin/Admin.js';
 
 initDB()
 
-export  default async (req, res) => {
+module.exports = async (req, res) => {
     if(req.method === 'POST'){
         try {
             const {name, email, password} = req.body;

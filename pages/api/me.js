@@ -1,6 +1,6 @@
-import { authenticated } from "../../../helper/authenticated";
-import initDB from "../../../helper/initDB";
-import Admin from "../../../models/admin/Admin";
+import { authenticated } from "../../helper/authenticated";
+import initDB from "../..helper/initDB";
+import Admin from "../../models/admin/Admin";
 import jwt from 'jsonwebtoken'
 
 initDB();

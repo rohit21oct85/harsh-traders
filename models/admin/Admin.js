@@ -1,7 +1,7 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate-v2');
-var timestamps = require('mongoose-timestamp');
-import bcrypt from 'bcrypt';
+const timestamps = require('mongoose-timestamp');
+const bcrypt = require('bcrypt');
 
 
 var Schema = mongoose.Schema;

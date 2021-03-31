@@ -22,12 +22,12 @@ module.exports = async (req, res) => {
                         maxAge: 3600,
                         path: '/'
                     }))
-                    return res.status(200).json({
+                    res.status(200).json({
                         error: false,
                         message: 'Login successfully'
                     });
                 }else{
-                    return res.status(203).json({
+                    res.status(203).json({
                         error: true,
                         message: 'Wrong password provided'
                     });        
@@ -35,7 +35,7 @@ module.exports = async (req, res) => {
             })
 
         }else{
-            return res.status(203).json({
+            res.status(203).json({
                 error: true,
                 message: 'Wrong email provided'
             });    

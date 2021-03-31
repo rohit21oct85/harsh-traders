@@ -1,0 +1,13 @@
+{
+    "routes": [
+        {
+            "src":"/",
+            "dist":"/api/hello"
+        },
+        {
+            "login":"login",
+            "method":"POST",
+            "dist":"/api/login"
+        }
+    ]
+}

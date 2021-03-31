@@ -5,7 +5,7 @@
             "dist":"/api/hello"
         },
         {
-            "login":"login",
+            "src":"login",
             "method":"POST",
             "dist":"/api/login"
         }

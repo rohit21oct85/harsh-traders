@@ -1,5 +1,5 @@
-import initDB from '../../../../helper/initDB';
-import Admin from '../../../../models/admin/Admin.js';
+import initDB from '../../helper/initDB';
+import Admin from '../../models/admin/Admin.js';
 
 initDB()
 

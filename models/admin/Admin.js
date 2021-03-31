@@ -3,7 +3,6 @@ const mongoosePaginate = require('mongoose-paginate-v2');
 const timestamps = require('mongoose-timestamp');
 const bcrypt = require('bcrypt');
 
-
 var Schema = mongoose.Schema;
 
 var AdminSchema = new Schema({
